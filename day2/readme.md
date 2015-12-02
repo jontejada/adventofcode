@@ -1,0 +1,1 @@
+run `node script.js data_jont.txt`
