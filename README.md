@@ -1,2 +1,1 @@
-# adventofcode
-adventofcode work
+#[adventofcode](http://adventofcode.com/)
