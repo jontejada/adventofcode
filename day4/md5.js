@@ -395,8 +395,11 @@ hexStartZeros = false;
 while (!hexStartZeros) {
 	numInput++;
 	var md5 = hex_md5(puzzleInput + numInput);
-	if (md5.substr(0,5) === '00000') {
+	if (md5.substr(0,6) === '000000') { //for part two: change 5 --> 6 and '00000' --> '000000'
 		hexStartZeros = true;
 		console.log(numInput);
+	}
+	if (numInput%1000===0){
+		console.log(numInput + " " + md5);
 	}
 }
