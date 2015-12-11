@@ -31,9 +31,6 @@ fs.readFile('data.txt', 'utf-8', function(err, data) {
 
   var totalDistances = [];
   allPermutations.forEach(function(permElem,n,arr) {
-    // console.log(permElem);
-    // console.log('n is ' + n);
-    //console.log(permElem[1]);
     for (var i = 0; i<distances.length; i++) { 
       var distanceStart = distances[i][0].substr(0,2);
       var distanceEnd = distances[i][2].substr(0,2);
