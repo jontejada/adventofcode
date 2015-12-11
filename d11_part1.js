@@ -1,3 +1,20 @@
+// charCodes:
+// a = 97
+// b = 98
+// .
+// .
+// .
+// y = 121
+// z = 122
+
+//invalids: 
+// i = 106
+// o = 111
+// l = 108
+
+// valid password:
+// straight of three chars, no invalids, two pair sets
+
 var myInput = 'vzbxkghb';
 
 function nextLetter(inputLetter) {
