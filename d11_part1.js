@@ -17,6 +17,7 @@
 var realInput = 'vzbxkghb';
 var testInput1 = 'vzbxkihb';
 var testInput2 = 'abaz';
+var realInput2 = 'vzbxxyzz';
 
 function convertInput(inputStr) {
 	var workingArr = [];
@@ -108,4 +109,4 @@ function nextValidPass(inputStr) {
 	return output;
 }
 
-console.log(nextValidPass(realInput));
+console.log(nextValidPass(realInput2));
